@@ -1,0 +1,23 @@
+h3 a{
+    color:#4e4db3;
+}
+
+h3 a:hover{
+    color:#414141;
+}
+
+.links-list li{
+    list-style-type: none;
+}
+
+.button-purple{
+    padding-left:4em;
+    padding-right:4em;
+    text-align: center;
+    background-color:#4e4db3;
+    width:90%;
+}
+
+h1{
+    margin:auto;
+}

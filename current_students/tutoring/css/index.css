@@ -1,0 +1,33 @@
+.article {
+    text-align: center;
+    font-family: sans-serif;
+    width: 80%;
+    line-height: 1.5;
+    margin: auto;
+}
+
+/*TEXT COLORS*/
+
+.green{
+    color: #4cb400;
+}
+
+.purple{
+    color: #4e4db3;
+}
+
+.orange{
+    color: #ee6230;
+}
+
+.lime{
+    color: #bbd03d;
+}
+
+.teal{
+    color:#59b4aa;
+}
+
+.yellow{
+    color:#eec416;
+}

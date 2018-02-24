@@ -1,0 +1,305 @@
+.article {
+    text-align: center;
+    font-family: sans-serif;
+    width: 80%;
+    line-height: 1.5;
+    margin: auto;
+}
+
+.card{
+    transition: 0.3s;
+    padding:1.5em;
+}
+
+.limebox{
+    background-color: rgba(187, 208, 61, 0.8);
+}
+
+.yellowbox{
+    background-color: rgba(238, 196, 22, 0.8);
+}
+
+.tealbox{
+    background-color:#59b4aa;
+}
+
+.hidden-input {
+    visibility: hidden;
+}
+
+#office_button {
+	background-color: #4E4DB3;
+}
+
+#office_button:hover {
+	background-color: #EE6230;
+}
+
+.success_header {
+    text-align: center;
+}
+
+.admin-header {
+    text-align: center;
+}
+
+/* TYPE STYLINGS */
+h1, h2, h3, h4, h5, .caption {
+     color: #272e35;
+}
+
+.card h1 {
+    font-family: 'Biryani', sans-serif;
+    font-weight: 800;
+}
+
+.card h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.card h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight:700;
+    font-size: 1.8em;
+    margin-top:-20px;
+}
+.card p {
+    font-family: 'Biryani', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+.card .date{
+    font-size:1.1em;
+}
+.caption {
+    font-family: 'Biryani', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.card a{
+    color:#2a2a2a;
+}
+
+
+/* ------ LIST STYLINGS ------- */
+li {
+    font-family: 'Biryani', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    margin-left: 15px;
+}
+li:before {
+    color: #4e4db3;
+}
+li ul li {
+    margin-left: 0px;
+}
+
+hr{
+    border-top: 0.25rem dotted;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: none;
+}    
+
+
+/* --| LINKS & BUTTONS |-- */
+
+a:hover{
+    color: #4e4db3;
+    transition:color .2s ease-out, background .1s ease-in;
+}
+
+.button:hover, .button:focus{
+    background-color:#4e4db3;
+    transition: background-color .2s ease-out, background .1s ease-in;
+}
+
+.button{
+    padding-left: 25px;
+    padding-right:25px;
+    color: white;
+}
+
+.special-button{
+    color:#434343;
+}
+
+.apply-button{
+    font-weight: 600;
+    font-size: 1.0em;
+    color:#434343;
+    letter-spacing: -1px;
+}
+
+.special-button:hover, .special-button:focus{
+    background-color:#ffffff;
+    color:#434343;
+    transition: background-color .2s ease-out,color .1s, background .1s ease-in;
+}
+
+.button-green{
+    background-color: #4cb400;
+}
+
+.button-orange{
+    background-color: #ee6230;
+}
+
+.button-lime{
+    background-color: #bbd03d;
+    color:#292929;
+}
+
+.button-teal{
+    background-color:#59b4aa;
+}
+
+.button-yellow{
+    background-color:#eec416; 
+    color:#292929;
+}
+
+.button-purple{
+    background-color:#4e4db3; 
+    color:white;
+}
+
+
+/*Footer Stuff*/
+.footer {
+  background-color: #262626;
+  padding-left:1em;
+    padding-right:1em;
+    padding-top:1em;
+  text-align: center;
+  color: #fff;
+}
+
+.footer .menu-text{
+  margin-top: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.footer h4 {
+  color: #fff;
+  font-size: 1.6em;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+  margin-bottom: 10px;
+}
+.footer p, .footer a {
+  font-weight: 300;
+  font-size: .8em;
+  color: #fff;
+  text-align: left;
+}
+.footer a:hover{
+   color: #b7b7b7; 
+}
+
+.footer a:hover{
+   color: #b7b7b7; 
+}
+
+.footer-links {
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.footer .menu-text-bottom{
+    font-size:1.4em;
+}
+
+.footer .menu-text{
+    font-size:1.5em;
+}
+
+.footer p {
+    font-size:1.1em;
+}
+
+.footer-links li {
+    margin-top: .1em;
+    font-size:1.3em;
+    text-align: center;
+    margin-left:0em;
+}
+
+
+
+@media only screen and (min-width: 40.063em) {
+    
+.footer h4{
+    font-size:1em;
+}
+    
+.footer .menu-text-bottom{
+    font-size:1.3em;
+}
+    
+.footer p {
+    font-size:0.8em;
+}
+
+.footer .menu-text{
+    font-size:1.2em;
+}
+    
+.footer .columns:nth-child(n+2) {
+    border-left: 1px solid #b3b3b3;
+    min-height: 230px;
+  }
+
+.footer-links {
+  list-style-type: none;
+    text-align: left; 
+    font-size: 1em;
+}
+.footer-links li {
+  margin-top: .1em;
+    text-align: left;
+    font-size:1.1em;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.footer-center-col{
+    text-align: center;
+}
+
+/*TEXT COLORS*/
+
+.green{
+    color: #4cb400;
+}
+
+.purple{
+    color: #4e4db3;
+}
+
+.orange{
+    color: #ee6230;
+}
+
+.lime{
+    color: #bbd03d;
+}
+
+.teal{
+    color:#59b4aa;
+}
+
+.yellow{
+    color:#eec416;
+}
+    
+

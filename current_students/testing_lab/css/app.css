@@ -1,0 +1,38 @@
+p {
+    color: #484848;
+    margin: auto;
+    text-align: justify;
+}
+
+ul {
+    color: #484848;
+}
+
+section h2 { 
+    text-align: left;
+    font-size: 2.5em;
+}
+
+.green{
+    color: #4cb400;
+}
+
+.purple{
+    color: #4e4db3;
+}
+
+.orange{
+    color: #ee6230;
+}
+
+.lime{
+    color: #bbd03d;
+}
+
+.teal{
+    color:#59b4aa;
+}
+
+.yellow{
+    color:#eec416;
+}

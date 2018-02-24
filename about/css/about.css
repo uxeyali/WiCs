@@ -1,0 +1,84 @@
+
+/* ROW STYLINGS */
+.row {
+    max-width: 55em;  
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.hero {
+    max-width: 62.5em !important;
+}
+    
+/* --| overall |-- */
+body {
+  background: #ebebeb;
+  color: black;
+  padding-top: 0;
+  margin-top: 0;
+  font-family: 'Metrophobic', sans-serif;
+}
+
+section {
+    color: #484848;
+    width:90%;
+    margin: auto;
+    text-align: center;
+}
+
+p{
+    text-align: left;
+}
+
+section ul, .block {
+    color: #484848;
+    text-align: left;
+}
+
+h3:hover {
+    color: rebeccapurple;
+    cursor: pointer;
+}
+
+.bottom-head{
+    color:#4e4db3;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.main-about-content{
+    text-align: justify;  
+    color: black;
+}
+
+section h2{
+    text-align: center;
+    font-size:2.5em;
+}
+
+.link-job{
+    color:#4cb400;
+}
+
+.green{
+    color: #4cb400;
+}
+
+.purple{
+    color: #4e4db3;
+}
+
+.orange{
+    color: #ee6230;
+}
+
+.lime{
+    color: #bbd03d;
+}
+
+.teal{
+    color:#59b4aa;
+}
+
+.yellow{
+    color:#eec416;
+}

@@ -1,0 +1,63 @@
+
+p {
+    color: #484848;
+    width:90%;
+    margin: auto;
+    text-align: justify;
+}
+
+ul {
+    color: #484848;
+}
+
+h3:hover {
+    color: rebeccapurple;
+    cursor: pointer;
+}
+
+.purple-div a{
+    color:#eec416;
+}
+
+.purple-div a:hover{
+    color:white;
+}
+
+.bottom-head{
+    color:#4e4db3;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.main-about-content{
+    text-align: justify;
+    text-indent: 50px;
+    color: black;
+}
+
+section h2{
+    text-align: center;
+    font-size:2.5em;
+}
+
+.map{
+    border: 2px;
+    border-style:solid; 
+    border-color: #4e4db3; 
+}
+
+.purple-div{
+    background-color: #4e4db3;
+    margin-left: 10px;
+    padding: 2em;
+    color:white;
+    text-align: left;
+}
+
+.purple-div p, .purple-div h3{
+    color:white;
+}
+
+.center{
+    text-align: center;
+}

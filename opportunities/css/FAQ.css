@@ -1,0 +1,80 @@
+
+main p, main li,{
+    color: #484848;
+    width:90%;
+    margin: auto;
+    text-align: justify;
+}
+
+.button{
+    text-align: justify;
+}
+
+ul {
+    color: #484848;
+}
+
+h3:hover {
+    color: rebeccapurple;
+    cursor: pointer;
+}
+
+.bottom-head{
+    color:#4e4db3;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.main-about-content{
+    text-align: justify;
+    text-indent: 50px;
+    color: black;
+}
+
+section h2{
+    text-align: center;
+    font-size:2.5em;
+}
+
+
+.green{
+    color: #4cb400;
+}
+
+.purple{
+    color: #4e4db3;
+}
+
+.orange{
+    color: #ee6230;
+}
+
+.lime{
+    color: #bbd03d;
+}
+
+.teal{
+    color:#59b4aa;
+}
+
+.yellow{
+    color:#eec416;
+}
+
+a.back-to-top {
+  display: none;
+  width: 60px;
+  height: 60px;
+  text-indent: -9999px;
+  position: fixed;
+  z-index: 1000;
+  right: 20px;
+  bottom: 20px;
+  background: rgba(83, 83, 83, 0.24) url("../img/up-arrow.png") no-repeat center 43%;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+a:hover.back-to-top {
+  background-color: #4e4db3;
+}

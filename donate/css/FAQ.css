@@ -1,0 +1,53 @@
+
+p {
+    color: #484848;
+    width:90%;
+    margin: auto;
+    text-align: justify;
+}
+
+ul {
+    color: #484848;
+}
+
+.bottom-head{
+    color:#4e4db3;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.main-about-content{
+    text-align: justify;
+    text-indent: 50px;
+    color: black;
+}
+
+section h2{
+    text-align: center;
+    font-size:2.5em;
+}
+
+
+.green{
+    color: #4cb400;
+}
+
+.purple{
+    color: #4e4db3;
+}
+
+.orange{
+    color: #ee6230;
+}
+
+.lime{
+    color: #bbd03d;
+}
+
+.teal{
+    color:#59b4aa;
+}
+
+.yellow{
+    color:#eec416;
+}

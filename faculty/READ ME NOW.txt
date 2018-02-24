@@ -1,0 +1,166 @@
+COPY AND PASTE THIS QUERY IN THE MYPHPADMIN SQL QUERY AREA TO STAY UPDATED WITH THE CURRENT VERSION OF THE FACULTY EDIT TOOL:
+
+-- phpMyAdmin SQL Dump
+-- version 4.5.1
+-- http://www.phpmyadmin.net
+--
+-- Host: 127.0.0.1
+-- Generation Time: May 01, 2017 at 10:12 PM
+-- Server version: 10.1.19-MariaDB
+-- PHP Version: 7.0.9
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `university`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `awards`
+--
+
+CREATE TABLE `awards` (
+  `name` varchar(30) NOT NULL,
+  `username` varchar(20) DEFAULT NULL,
+  `description` varchar(300) DEFAULT NULL,
+  `num` int(3) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `awards`
+--
+
+INSERT INTO `awards` (`name`, `username`, `description`, `num`) VALUES
+('award 2', 'jfrancioni', 'description', 1),
+('award 3', 'jfrancioni', 'description', 2),
+('name', 'clin', 'description', 3);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `courses`
+--
+
+CREATE TABLE `courses` (
+  `name` varchar(30) NOT NULL,
+  `username` varchar(20) NOT NULL,
+  `description` varchar(300) NOT NULL,
+  `type` varchar(20) NOT NULL,
+  `num` int(3) NOT NULL,
+  `course_type_number` varchar(30) NOT NULL DEFAULT 'CS NUMBER'
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `courses`
+--
+
+INSERT INTO `courses` (`name`, `username`, `description`, `type`, `num`, `course_type_number`) VALUES
+('name', 'jfrancioni', 'description', 'cs', 1, 'course_typ'),
+('name', 'jfrancioni', 'description', 'cs', 2, 'course_type_number'),
+('name', 'clin', 'description', 'cs', 3, 'course_type_number');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `faculty`
+--
+
+CREATE TABLE `faculty` (
+  `name` varchar(20) DEFAULT NULL,
+  `email` varchar(40) DEFAULT NULL,
+  `username` varchar(20) NOT NULL,
+  `address` varchar(255) DEFAULT NULL,
+  `content1` varchar(255) DEFAULT NULL,
+  `content2` varchar(255) DEFAULT NULL,
+  `content3` varchar(255) DEFAULT NULL,
+  `img_source` varchar(50) DEFAULT NULL,
+  `role` varchar(7) DEFAULT NULL,
+  `quote` varchar(244) DEFAULT NULL,
+  `bio` varchar(999) DEFAULT NULL,
+  `nickname` varchar(20) DEFAULT NULL,
+  `course_img_source` varchar(244) DEFAULT NULL,
+  `course_title` varchar(20) DEFAULT NULL,
+  `course_description` varchar(999) DEFAULT NULL,
+  `award_pub_img_source` varchar(244) DEFAULT NULL,
+  `award_pub_title` varchar(30) DEFAULT NULL,
+  `award_pub_description` varchar(999) DEFAULT NULL,
+  `template_num` varchar(1) NOT NULL DEFAULT '2',
+  `personal_site` varchar(250) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `faculty`
+--
+
+INSERT INTO `faculty` (`name`, `email`, `username`, `address`, `content1`, `content2`, `content3`, `img_source`, `role`, `quote`, `bio`, `nickname`, `course_img_source`, `course_title`, `course_description`, `award_pub_img_source`, `award_pub_title`, `award_pub_description`, `template_num`, `personal_site`) VALUES
+('Chi-Cheng Lin', 'clin@winona.edu', 'clin', 'facpages/template2.php', 'Ph.D., University of Pittsburgh', 'UCR ST133', '507-285-7145', 'lin.jpg', 'faculty', '', '', 'lin', NULL, NULL, NULL, NULL, NULL, NULL, '2', ''),
+('Gerald Cichanowski', 'gcichanowski@winona.edu', 'gcichanowski', 'facpages/template2.php?username=gcichanowski', 'Ph.D., Michigan State University', 'Watkins 108', '507-457-5385', 'cichanowski.jpg', 'faculty', 'lasdf lasdfl asdfja slfjsadlf asdjfasdl;fasf asdlfjs lfajsld fald aldjf asdj ', 'saldf asldfjsald fasjd flsadjfl sdlsdjsf dlfa flsfls f lsalfasj lfl faksjdflsa dflasjfasflslf sldf asld dflasdlasd lf lasj flasdjfljf d lj adjld flasdfjlasdfjslfja sldfjasldfjasld fsaldfjasdlf jasdhfasdkjfls adhldfhasd fasl asdk fadsh kajds faks dakj sss', 'gerald', NULL, NULL, NULL, NULL, NULL, NULL, '2', 'http://personal site here'),
+('Joan Francioni', 'jfrancioni@winona.edu', 'jfrancioni', '', 'Ph.D., Florida State University', 'Watkins 108D', '507-457-2336', 'francioni.jpg', 'faculty', 'test', 'this is a tests', 'joan', NULL, NULL, NULL, NULL, NULL, NULL, '2', 'http://cs.winona.edu/francioni/'),
+('Mary Lange', 'mlange@winona.edu', 'mlange', 'ASDFASDF', ' Office Manager', 'Watkins 103', '507-457-5385', 'lange.jpg', 'staff', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2', ''),
+('Mingrui Zhang', 'mzhang@winona.edu', 'mzhang', 'mzhang.html', 'Ph.D., University of South Florida', 'Watkins 103A', '507-457-2496', 'zhang.jpg', 'faculty', '', '', 'zhang', NULL, NULL, NULL, NULL, NULL, NULL, '2', ''),
+('Nicole Anderson', 'nanderson@winona.edu', 'nanderson', 'nanderson.html', 'Ph.D., University of Utah', 'UCR ST133', '507-285-7480', 'anderson.jpg', 'faculty', '', '', 'nicole', NULL, NULL, NULL, NULL, NULL, NULL, '2', ''),
+('Narayan Debnath', 'ndebnath@winona.edu', 'ndebnath', 'ndebnath.html', 'D.Sc, Jadavpur University', 'Watkins 108', '507-457-5261', 'debnath.jpg', 'faculty', 'quote here', 'bio here', 'debnath', NULL, NULL, NULL, NULL, NULL, NULL, '2', ''),
+('Nina Marhamati', 'nmarhamati@winona.edu', 'nmarhamati', 'nmarhamati.html', 'ABD, Southern Illinois University', 'Watkins 108F', '507-457-5377', 'marhamati.jpg', 'faculty', '', '', 'nina', NULL, NULL, NULL, NULL, NULL, NULL, '2', ''),
+('Paul Schumacher', 'pschumacher@winona.edu', 'pschumacher', 'pschumacher.html', 'M.A.T., Stanford University', 'Watkins 103G', '507-457-5656', 'schumacher.jpg', 'faculty', '', '', 'paul', 'NULL', 'NULL', 'NULL', 'NULL', 'NULL', 'NULL', '2', ''),
+('Sudharsan Iyengar', 'siyengar@winona.edu', 'siyengar', 'facpages/template1.php', 'Ph.D., Louisiana State University/A&M College', 'Watkins 103D', '507-457-5539', 'iyengar.jpg', 'faculty', '', '', 'iyengar', NULL, NULL, NULL, NULL, NULL, NULL, '2', ''),
+('Susan McDonnell', 'smcdonnell@winona.edu', 'smcdonnell', 'something', 'Systems Administrator', 'Watkins 108', '507-457-5879', 'mcdonnell.jpg', 'staff', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2', ''),
+('Tim Gegg-Harrison', 'tgeggharrison@winona.edu', 'tgeggharrison', 'facpages/template2.php', 'Ph.D., Duke University', 'Watkins 108C', '507-457-5381', 'gegg-harrison.jpg', 'faculty', '', '', 'tim', NULL, NULL, NULL, NULL, NULL, NULL, '2', '');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `officehours`
+--
+
+CREATE TABLE `officehours` (
+  `profname` varchar(20) NOT NULL,
+  `dayofweek` varchar(40) DEFAULT NULL,
+  `slot` varchar(20) NOT NULL,
+  `slottext` varchar(255) DEFAULT NULL,
+  `slotsize` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `officehours`
+--
+
+INSERT INTO `officehours` (`profname`, `dayofweek`, `slot`, `slottext`, `slotsize`) VALUES
+('gerald', 'monday', '3', 'test', '2'),
+('gerald', 'wednesday', '6', 'test2', '2'),
+('tim', 'friday', '8', 'asdf', '2'),
+('tim', 'tuesday', '2', '', '4');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `awards`
+--
+ALTER TABLE `awards`
+  ADD PRIMARY KEY (`num`);
+
+--
+-- Indexes for table `courses`
+--
+ALTER TABLE `courses`
+  ADD PRIMARY KEY (`num`);
+
+--
+-- Indexes for table `faculty`
+--
+ALTER TABLE `faculty`
+  ADD PRIMARY KEY (`username`);
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

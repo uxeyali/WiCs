@@ -1,0 +1,20 @@
+#fac img{
+	border-radius: 50%;
+}
+.line{
+	color: #CCDBD7;
+}
+#office_button, .editorButton {
+	background-color: #4E4DB3;
+}
+#office_button:hover, .editorButton:hover {
+	background-color: #EE6230;
+}
+.role{
+	font-weight: bold;
+}
+.name_header {
+    font-size: 1.5em;
+    font-family: 'Roboto Slab', serif;
+    color: #272e35;
+}

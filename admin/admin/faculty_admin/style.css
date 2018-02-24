@@ -1,0 +1,108 @@
+
+body{
+    border: 3px solid #f1f1f1;
+	width: 80%;
+	margin: auto;
+}
+body.main{
+	margin-top: 50px;
+}
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+#ajax{
+	float:left;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+.btnleft{
+	width: 45%;
+	height: 50px;
+	margin-right: 2%;
+}
+.btnright {
+    width: 45%;
+	height: 50px;;
+}
+.loginbtn{
+	background-color: #4CAF50;
+	width: 100%;
+}
+.loginbtn:hover{
+	background-color: #45a048;
+}
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+.cancelbtn:hover{
+	background-color: red;
+}
+.newuserbtn{
+	width: auto;
+    padding: 10px 18px;
+	background-color: #42b9f4;
+}
+.newuserbtn:hover{
+	background-color: #4298f4;
+}
+.newuser{
+	float: right;
+	margin-top: 15px;
+}
+
+.logincontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+a:link, a:visited{
+	color: #4CAF50;
+}
+a:hover{
+	color: green;
+}
+@media screen and (min-width: 500px){
+	body{
+		width: 500px;
+	}
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 500px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+	.newuser{
+		margin-top: auto;
+		float: left;
+	}
+}
