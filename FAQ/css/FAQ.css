@@ -9,6 +9,10 @@ ul {
     color: #484848;
 }
 
+.att {
+    color:purple;
+}
+
 .ans-purple p{
     padding:2em;
     color:white;

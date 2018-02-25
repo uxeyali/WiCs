@@ -19,6 +19,10 @@
             
               <img src="<?php print $path; ?>img/WiCSLogo2.png" width="100%"> 
 
+<<<<<<< HEAD
+            <a href=<?php print($path) ?>><h2 class="cs-title">COMPUTER SCIENCE<br>Women in Computer Science</h2></a>
+=======
+>>>>>>> 3a939c90c3c477dda0673c36fc54d8f6a3d95328
             <br>
           </div>
         </div>
@@ -31,6 +35,48 @@
 <div class="skewed-bg-green"></div>
      
      
+<<<<<<< HEAD
+ <!-- Added Image class -->
+     <div class="row firstSection">
+        <div class="columns">
+            
+            
+            <div class="image large-4 medium-4 small-12 columns">
+                <img src="img/About.png" alt="">
+                <h3>Mission Statement</h3>
+                <p>Click here to view WiCS Mission Statement.</p>
+                <a href="<?php print($path . "about/") ?>" class="medium button button-lime">Mission Statement <i class="fa fa-chevron-right"></i></a>
+            </div>
+            
+            
+            <div class="image large-4 medium-4 small-12 columns">
+                <img src="img/prospective-students.png" alt="">
+                <h3>Scholarships</h3>
+                <p>Link to many scholarships specific to CS and women in CS.</p>
+                <a href="<?php print($path . "opportunities/") ?>" class="medium button button-yellow">Scholarships <i class="fa fa-chevron-right"></i></a>
+            </div>
+            
+            
+            <div class="image large-4 medium-4 small-12 columns">
+                <img src="img/faculty.png" alt="">
+                <h3>Email List</h3>
+                <p>Type your email to be added to our email list!</p>
+                <a href=<?php print($path . "faculty/") ?> class="medium button button-orange">Email List <i class="fa fa-chevron-right"></i></a>
+            </div>
+            
+            
+            <div class="medium-4">
+            </div>
+        </div>
+    </div> 
+
+
+    <!-- DIVIDER -->
+     <div class="row"><img src="img/line.svg"></div>
+     
+
+
+=======
     <br>
      
 <div class="row">
@@ -44,6 +90,7 @@
           </section>
      </div>
 </div>
+>>>>>>> 3a939c90c3c477dda0673c36fc54d8f6a3d95328
      <!-- SECTION -->
      <div class="row">
          <div class="image small-12 medium-4 medium-push-8 large-6 large-push-6 columns">
