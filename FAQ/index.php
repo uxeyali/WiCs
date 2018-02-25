@@ -15,7 +15,7 @@
 
      <div class="banner row">
          <div class="image large-12 large-centered columns">
-             <img src="../img/FAQ.png">
+             <img src="../img/FAQ_testing-lab.png" width="50%">
              <h2>FAQs ABOUT THE WiCS</h2>
          </div>
      </div>
@@ -78,21 +78,27 @@
              <!-- ================================================================================== -->    
              
             </section>
-       <br>   
+<!--       <br>   
            <h2 class="purple">Any more questions?</h2>
-          <h4><a href="#" class="att"> Contact us</a> if you have other specific questions</h4>
+          <h4><a href="#" class="att"> Contact us</a> if you have other specific questions</h4> -->
         </div>
         
         
     </div>
 <!-- ================================================================================== -->       
   
-    <br>
-    <br>
-        
-    <div class="fa">
-        <h5>Page Created By: Nina Horabik </h5>
-    </div>
+     <div class="row">
+      <div class="large-12 columns">
+            <section class="main">
+            <div class="row"><img src="../img/line.svg"></div>
+        <h5>Page Created By: Nina Horabik and Catelyn Holm </h5>
+
+               
+          </section>
+            </div>
+        </div>
+      <br>
+        <br>
         
     </main>
     

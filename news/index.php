@@ -235,6 +235,19 @@
         ?>
 -->
         
+        <div class="row">
+      <div class="large-12 columns">
+            <section class="main">
+            <div class="row"><img src="../img/line.svg"></div>
+        <h5>Page Created By: Uzma Ghazanfar and Stacey Miertschin </h5>
+
+               
+          </section>
+            </div>
+        </div>
+      <br>
+        <br>
+        
     </main>
     <script src="../../js/vendor/jquery.js"></script>
     <script src="../../js/vendor/foundation.min.js"></script>

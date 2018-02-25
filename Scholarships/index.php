@@ -71,6 +71,19 @@
             </section>
         </div>
     </div>
+        
+          <div class="row">
+      <div class="large-12 columns">
+            <section class="main">
+            <div class="row"><img src="../img/line.svg"></div>
+        <h5>Page Created By: Hannah Lebakken and Chelsea Hulburt </h5>
+
+               
+          </section>
+            </div>
+        </div>
+      <br>
+        <br>
     </main>
       
     <?php

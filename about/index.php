@@ -14,7 +14,7 @@
     <!-- BANNER SECTION -->
      <div class="banner row">
          <div class="image large-12 large-centered columns">
-             <img src="../img/3women-24.png">
+             <img src="../img/3women-24.png" width="50%">
              <h2>ABOUT WiCS</h2>
          </div>
      </div>
@@ -91,9 +91,18 @@
           </div>
         </div>
     </div>
-        <br>
+          <div class="row">
+      <div class="large-12 columns">
+            <section class="main">
+            <div class="row"><img src="../img/line.svg"></div>
+        <h5>Page Created By: Linh Nguyen </h5>
+
+               
+          </section>
+            </div>
+        </div>
+     
         
-        <h5>Made By: Linh Nguyen</h2>
     <!-- DIVIDER -->
     
     
