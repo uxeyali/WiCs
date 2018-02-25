@@ -13,7 +13,7 @@
         <!-- BANNER SECTION -->
      <div class="banner row">
          <div class="image large-12 large-centered columns">
-             <img src="../img/Scholarships.png">
+             <img src="../img/Scholarships.png" width="50%">
              <h2>Scholarships</h2>
          </div>
      </div>
@@ -26,6 +26,7 @@
                     
                 There are many scholarships available to Women in Computer Science, including, but not limited to...</p>
                 <br>
+                                      
                 <h4><a href=https://winona.academicworks.com/opportunities/2737>Befidi Family Scholarship</a></h4>
                  <h4><a href="https://winona.academicworks.com/opportunities/2690">Federated Insurance Computer Science Scholarship</a></h4>
 					<h4>
