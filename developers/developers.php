@@ -18,7 +18,7 @@
      <div class="banner row">
          
         <p>We are a supportive network to help women join and enjoy the culture of computer science and its projects.</p>
-        <img class="WiCS Developers" src="../img/developers.jpg"><br><br>
+        <img class="WiCS Developers" src="../img/hackathon.jpg"><br><br>
         <p> Our goal is to increase recruitment and retention of women in technology field. We offer members activities and projects that aim to improve the working and learning environments. </p>
      </div>
   
