@@ -10,15 +10,138 @@
     <!-- BANNER SECTION -->
      <div class="banner row">
          <div class="image large-12 large-centered columns">
-             <img src="<?php print $path; ?>img/news.png">
-             <h2>WSU CS Department News</h2>
+             <img src="<?php print $path; ?>img/3women-24.png">
+             <h2>WiCS Events</h2>
          </div>
      </div>
-     <!-- DIVIDER -->
-     <div class="row"><img src="<?php print $path; ?>img/line.svg"></div>
-    
+
     <!--  Begin News Page  -->
     <main>
+        
+         <div class="row">
+      <div class="large-12 columns">
+            <section class="main">
+                <p> If you are interested in joining us for any event and want more information, please contact club president, Uzma, for more information.
+                </p>
+          </section>
+            </div>
+        </div>
+        
+        <div class="row">
+      <div class="large-12 columns">
+            <section class="main">
+            <div class="row"><img src="../img/line.svg"></div>
+                <h3 class="purple">Biweekly Meetings</h3>
+                <br>
+                <p> We hold every alternate weeks on Thursdays at 6 PM in Watkins 209. At these meeting, we work on interesting activities and projects such as 3-D printing, wearable technology, and VR. Plus, there are snacks!
+                </p>
+                <p>Our next meeting will be on March 1, 2018.                
+                </p>
+          </section>
+            </div>
+        </div>
+        
+        
+         <div class="row">
+      <div class="large-12 columns">
+            <section class="main">
+            <div class="row"><img src="../img/line.svg"></div>
+                <h3 class="teal">Women Leading in Technology</h3>
+                <br>
+                <p>The Mayo Clinic has invited us to attend the Minnesota High Tech Association's newtworking event in Spring Valley. Students will be able to meet women working in leadership positions in the field of technology. There will be a number of local tech companies represented who will be of interested to WiCS students.
+                </p>
+                <p>March 13, 2018 - Students will be leaving Winona State at 3:30 PM. 
+                </p>
+          </section>
+            </div>
+        </div>
+        
+        
+        <div class="row">
+      <div class="large-12 columns">
+            <section class="main">
+            <div class="row"><img src="../img/line.svg"></div>
+                <h3 class="green">GLOW STEM Panel</h3>
+                <br>
+                <p>On March 17, 2018, Winona State will be hosting Greater Leadership Opportunities for Women. A panel of twelve women from Mayo Clinic who will be giving presentations on their areas of expertise. Their presentations will focus on empowering women in STEM fields from IT to biomedical research.
+                </p>
+                <p>The presentations will be between 10 AM and 1 PM in the Business Engagement Center.
+                </p>
+          </section>
+            </div>
+        </div>
+        
+        
+        
+</main>
+        
+        
+        
+        
+         <div class="banner row">
+         <div class="image large-12 large-centered columns">
+             <h2>Past Events</h2>
+         </div>
+     </div>
+
+    <!--  Begin News Page  -->
+    <main>
+        
+        
+        <div class="row">
+      <div class="large-12 columns">
+            <section class="main">
+            <div class="row"><img src="../img/line.svg"></div>
+
+                <h3 class="purple">Winona State Hackathon</h3>
+                <div class="banner image large-12 large-centered columns">
+                <img src="<?php print $path; ?>img/Hackathon_Group.jpg" width="50%">
+                    </div>
+
+                <br>
+                <p> WiCS worked together on this website at the Hackathon on February 24, 2018. This was a great day filled with fun, friends, and coding.
+                </p>
+                <p>This Hackathon is an annual event hosted by Winona State. In the future, WiCS will also be participating in other hackathon events.                
+                </p>
+          </section>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+<!--
         <?php
             
         #Function to shorten the article text so the page isn't cluttered
@@ -110,6 +233,7 @@
         }
         
         ?>
+-->
         
     </main>
     <script src="../../js/vendor/jquery.js"></script>
